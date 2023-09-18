@@ -15,7 +15,7 @@
           <img src="./assets/img/Group3.svg" alt="Button convertToLowerCase">
         </button>
         <button @click="uploadImage">
-          <img class="container__img" src="./assets/img/Group4.svg" alt="Button upload IMG">
+          <img src="./assets/img/Group4.svg" alt="Button upload IMG">
         </button>
         <button @click="copyHTML">
           <a class="buttonsComponent__container_button_copyHTML">Скопировать HTML</a>
@@ -144,11 +144,11 @@ export default defineComponent({
   align-items: center;
 }
 
-.container__button {
+.container button {
   border: none;
 }
 
-.container__img {
+.container img {
   height: 42px;
   width: 38px;
 }
